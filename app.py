@@ -12,7 +12,7 @@ def main():
         st.header("Port Sector Applications")
         st.subheader("Port Data Explorer Brazil")
         st.write("This app provides fast and convenient access to cargo tonnage data for Brazilian ports and terminals. Using updated information from ANTAQ’s Aquaviary Statistics, it lets you explore port logistics effortlessly.")
-        st.markdown("[Explore the app](https://movimentacaoportuaria.streamlit.app/)")
+        st.markdown("[Explore the app](https://movportuariaporporto.streamlit.app/)")
     
     elif section == "Academic":
         st.header("Academic Applications")
