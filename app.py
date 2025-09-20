@@ -8,7 +8,7 @@ def main():
     st.header("Aplicações | Applications")
     
     # --- PortExports ---
-    st.subheader("PortExports")
+    st.subheader("Exportações Portuárias | PortExports")
     st.write("Este painel interativo apresenta uma visão geral das exportações marítimas movimentadas pelo setor portuário em 2023. Permite analisar volumes de exportação por país e produto, oferecendo insights sobre fluxos comerciais e a distribuição das cargas movimentadas pelos portos.  \n\n"
              "This interactive dashboard provides an overview of maritime exports handled by the port sector, specifically for the year 2023. The application allows users to analyse export volumes by country and product, offering insights into trade flows and the distribution of port-handled goods.")
     st.markdown("[Acessar o aplicativo | Explore the app](https://portexports.streamlit.app/)")
@@ -26,7 +26,7 @@ def main():
     st.markdown("[Acessar o aplicativo | Explore the app](https://observatorio1.streamlit.app/)")
     
     # --- Text Mining ---
-    st.subheader("Text Mining Assistant")
+    st.subheader("Assistente de Mineração de Texto | Text Mining Assistant")
     st.write("Este aplicativo facilita a análise de textos em arquivos PDF. Você pode selecionar até três palavras-chave, e o app identificará suas localizações, destacará os trechos e permitirá exportar os resultados em Word e Excel.  \n\n"
              "This app makes it easier to analyse text data within PDF files. You can select up to three keywords, and the app will identify their locations, highlight them, and extract the surrounding text. It also allows you to download a Word document with the extracted content and an Excel file showing keyword frequencies.")
     st.markdown("[Acessar o aplicativo | Explore the app](https://textmininginput.streamlit.app/)")
